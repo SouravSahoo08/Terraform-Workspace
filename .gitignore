@@ -1,0 +1,6 @@
+env.bat
+
+*.tfstate
+*.tfstate.*
+
+.terraform/
