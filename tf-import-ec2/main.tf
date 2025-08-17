@@ -19,3 +19,9 @@ resource "aws_instance" "main" {
     "Name" = "tf-test-import-instance"
   }
 }
+
+# make an empty resource file
+# run --> terrafrom import aws_instance.main <ec2-id>
+# watch configuration of the existing resource o/p in the console
+# modify the resource block accordingly
+# use 'terraform plan' to check & correct differences (if any)
